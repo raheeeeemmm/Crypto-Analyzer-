@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+  padding: 5px;
+  font-family: Arial, sans-serif;
+  background-image: url("bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 100, 77, 0.5);
+}
+
+header {
+  background: rgba(0, 123, 94, 0.7);
+  color: white;
+  padding: 10px;
+  position: relative;
+}
+
+section {
+  padding: 50px;
+  display: none;
+  
+}
+
+#welcome-message {
+  text-align: center;
+  padding: 10px;
+  background: none;
+  color: rgb(0, 100, 77);
+  -webkit-text-fill-color: rgb(0, 100, 77); /* For Safari/WebKit */
+  text-stroke: 1px white;
+  -webkit-text-stroke: 1px white; /* For Safari/WebKit */
+  font-size: 24px; /* Adjust the font size as desired */
+}
+
+
+
+  
+#heading{
+    text-align: center;
+    padding: 10px;
+}
+  
+  header {
+    background: rgb(0, 123, 94);
+    color: white;
+    padding: 10px;
+  }
+ 
+  #welcome-message {
+  text-align: center;
+  padding: 10px;
+  background: none;
+  border: none;
+  color: rgb(0, 100, 77);
+  animation: slideIn 1s ease;
+  font-family: "Arial Black", fantasy;
+}
+
+  @keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+    
+  nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: transparent;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  nav a:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  
+  section {
+    padding: 50px;
+    display: none;
+  }
+  
+  #live-prices {
+    text-align: center;
+    align-items: center;
+  }
+  
+  #historical-data {
+    
+    text-align: center;
+    align-items: center;
+  }
+  
+  #compare-coins {
+    text-align: center;
+    align-items: center;
+  }
+
+  
+  #sort-coins {
+    text-align: center;
+    align-items: center;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  #track-button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .track-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(0, 123, 94);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .track-button:hover {
+    background-color: rgb(0, 100, 77);
+  }
+  #get-chart-button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .get-chart-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(0, 123, 94);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .get-chart-button:hover {
+    background-color: rgb(0, 100, 77);
+  }#compare-button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .compare-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(0, 123, 94);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .compare-button:hover {
+    background-color: rgb(0, 100, 77);
+  }
+
+  #sort-button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .sort-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(0, 123, 94);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .sort-button:hover {
+    background-color: rgb(0, 100, 77);
+  }
+  
+
+  
+  

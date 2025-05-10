@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Crypto Analyzer</title>
+
+</head>
+<body>
+  <header>
+    <h1 id="heading">Crypto Analyzer</h1>
+    <nav>
+      <a href="#" onclick="toggleSection('live-prices')">Track Live Prices</a>
+      <a href="#" onclick="toggleSection('historical-data')">Get Historical Price Chart</a>
+      <a href="#" onclick="toggleSection('compare-coins')">Compare Coins</a>
+      <a href="#" onclick="toggleSection('sort-coins')">Sort Coins</a>
+    </nav>
+  </header>
+  
+  <h3 id="welcome-message">Welcome to Crypto Tracker</h3>
+
+  <section id="live-prices">
+    <h2>Track Live Prices</h2>
+    <input type="text" id="live-coin-symbol" placeholder="Enter Coin Symbol"><br>
+    <div id="track-button-container">
+      <a href="#" onclick="trackLivePrice()" class="track-button">Track</a>
+    </div>
+    <p id="live-price-result"></p>
+  </section>
+  
+
+  <section id="historical-data" style="display: none;">
+    <h2 style="color: black;">Get Historical Price Chart</h2>
+    <input type="text" id="historical-coin-symbol" placeholder="Enter Coin Symbol"><br>
+    <div id="get-chart-button-container">
+      <a href="#" onclick="getHistoricalData()" class="get-chart-button">Get Chart</a>
+    </div>
+    <div id="chart-container"></div>
+    <div id="historical-chart"></div>
+  </section>
+  
+  
+
+  <section id="compare-coins" style="display: none;">
+    <h2>Compare Coins</h2>
+    <input type="text" id="coin1-symbol" placeholder="Enter Coin 1 Symbol">
+    <input type="text" id="coin2-symbol" placeholder="Enter Coin 2 Symbol"><br>
+    <div id="compare-button-container">
+      <a href="#" onclick="compareCoins()" class="compare-button">Compare</a>
+    </div>
+    <div id="compare-chart"></div>
+  </section>
+  
+
+  <section id="sort-coins" style="display: none;">
+    <h2>Sort Coins</h2>
+    <input type="text" id="num-coins" placeholder="Enter Number of Coins"><br>
+    <div id="sort-button-container">
+      <a href="#" onclick="sortCoins()" class="sort-button">Sort</a>
+    </div>
+    <div id="sorted-coins"></div>
+    <p id="time-complexity"></p>
+  </section>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+  <script src="https://s3.tradingview.com/tv.js"></script>
+  <script>
+    function toggleSection(sectionId) {
+      
+      const sections = document.querySelectorAll('section');
+      sections.forEach(section => {
+        section.style.display = 'none';
+      });
+
+      // Hide the welcome message
+      const welcomeMessage = document.getElementById('welcome-message');
+      welcomeMessage.style.display = 'none';
+
+        // Show the selected section
+      const selectedSection = document.getElementById(sectionId);
+      if (selectedSection) {
+        selectedSection.style.display = 'block';
+      }
+    }
+
+
+  </script>
+</body>
+</html>

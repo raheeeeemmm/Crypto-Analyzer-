@@ -1,0 +1,254 @@
+{
+  "cryptocurrencies": [
+    {
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "market_cap": "$992,154"
+    },
+    {
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "market_cap": "$889,917"
+    },
+    {
+      "name": "Binance Coin",
+      "symbol": "BNB",
+      "market_cap": "$87,984"
+    },
+    {
+      "name": "Cardano",
+      "symbol": "ADA",
+      "market_cap": "$64,807"
+    },
+    {
+      "name": "XRP",
+      "symbol": "XRP",
+      "market_cap": "$39,245"
+    },
+    {
+      "name": "Dogecoin",
+      "symbol": "DOGE",
+      "market_cap": "$36,672"
+    },
+    {
+      "name": "Polkadot",
+      "symbol": "DOT",
+      "market_cap": "$27,088"
+    },
+    {
+      "name": "Bitcoin Cash",
+      "symbol": "BCH",
+      "market_cap": "$24,572"
+    },
+    {
+      "name": "Litecoin",
+      "symbol": "LTC",
+      "market_cap": "$22,800"
+    },
+    {
+      "name": "Chainlink",
+      "symbol": "LINK",
+      "market_cap": "$17,988"
+    },
+    {
+      "name": "VeChain",
+      "symbol": "VET",
+      "market_cap": "$15,270"
+    },
+    {
+      "name": "Stellar",
+      "symbol": "XLM",
+      "market_cap": "$14,740"
+    },
+    {
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "market_cap": "$13,495"
+    },
+    {
+      "name": "Filecoin",
+      "symbol": "FIL",
+      "market_cap": "$13,171"
+    },
+    {
+      "name": "Tron",
+      "symbol": "TRX",
+      "market_cap": "$13,169"
+    },
+    {
+      "name": "Wrapped Bitcoin",
+      "symbol": "WBTC",
+      "market_cap": "$13,047"
+    },
+    {
+      "name": "Ethereum Classic",
+      "symbol": "ETC",
+      "market_cap": "$12,464"
+    },
+    {
+      "name": "EOS",
+      "symbol": "EOS",
+      "market_cap": "$11,919"
+    },
+    {
+      "name": "Neo",
+      "symbol": "NEO",
+      "market_cap": "$10,421"
+    },
+    {
+      "name": "Cosmos",
+      "symbol": "ATOM",
+      "market_cap": "$10,181"
+    },
+    {
+      "name": "Monero",
+      "symbol": "XMR",
+      "market_cap": "$86,310"
+    },
+    {
+      "name": "Aave",
+      "symbol": "AAVE",
+      "market_cap": "$85,704"
+    },
+    {
+      "name": "IOTA",
+      "symbol": "MIOTA",
+      "market_cap": "$84,566"
+    },
+    {
+      "name": "Tezos",
+      "symbol": "XTZ",
+      "market_cap": "$81,223"
+    },
+    {
+      "name": "Kusama",
+      "symbol": "KSM",
+      "market_cap": "$80,087"
+    },
+    {
+      "name": "Bitcoin SV",
+      "symbol": "BSV",
+      "market_cap": "$77,999"
+    },
+    {
+      "name": "Theta Network",
+      "symbol": "THETA",
+      "market_cap": "$75,544"
+    },
+    {
+      "name": "Polygon",
+      "symbol": "MATIC",
+      "market_cap": "$74,488"
+    },
+    {
+      "name": "Maker",
+      "symbol": "MKR",
+      "market_cap": "$74,371"
+    },
+    {
+      "name": "Dai",
+      "symbol": "DAI",
+      "market_cap": "$73,332"
+    },
+    {
+      "name": "Compound",
+      "symbol": "COMP",
+      "market_cap": "$69,838"
+    },
+    {
+      "name": "Terra",
+      "symbol": "LUNA",
+      "market_cap": "$65,568"
+    },
+    {
+      "name": "Huobi Token",
+      "symbol": "HT",
+      "market_cap": "$64,427"
+    },
+    {
+      "name": "THORChain",
+      "symbol": "RUNE",
+      "market_cap": "$64,277"
+    },
+    {
+      "name": "Avalanche",
+      "symbol": "AVAX",
+      "market_cap": "$62,127"
+    },
+    {
+      "name": "BitTorrent",
+      "symbol": "BTT",
+      "market_cap": "$62,060"
+    },
+    {
+      "name": "Fantom",
+      "symbol": "FTM",
+      "market_cap": "$60,031"
+    },
+    {
+      "name": "Klaytn",
+      "symbol": "KLAY",
+      "market_cap": "$59,933"
+    },
+    {
+      "name": "Algorand",
+      "symbol": "ALGO",
+      "market_cap": "$59,720"
+    },
+    {
+      "name": "Elrond",
+      "symbol": "EGLD",
+      "market_cap": "$58,587"
+    },
+    {
+      "name": "Decred",
+      "symbol": "DCR",
+      "market_cap": "$57,465"
+    },
+    {
+      "name": "NEAR Protocol",
+      "symbol": "NEAR",
+      "market_cap": "$54,333"
+    },
+    {
+      "name": "Crypto.com Coin",
+      "symbol": "CRO",
+      "market_cap": "$52,291"
+    },
+    {
+      "name": "SushiSwap",
+      "symbol": "SUSHI",
+      "market_cap": "$51,141"
+    },
+    {
+      "name": "Synthetix",
+      "symbol": "SNX",
+      "market_cap": "$50,103"
+    },
+    {
+      "name": "Dash",
+      "symbol": "DASH",
+      "market_cap": "$45,974"
+    },
+    {
+      "name": "Zcash",
+      "symbol": "ZEC",
+      "market_cap": "$43,811"
+    },
+    {
+      "name": "Celsius",
+      "symbol": "CEL",
+      "market_cap": "$41,705"
+    },
+    {
+      "name": "Quant",
+      "symbol": "QNT",
+      "market_cap": "$40,669"
+    },
+    {
+      "name": "Revain",
+      "symbol": "REV",
+      "market_cap": "$40,594"
+    }
+  ]
+}
